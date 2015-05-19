@@ -104,7 +104,7 @@ if( !class_exists( 'Custom_Post_Type_With_Settings' ) ) {
 				if( is_admin() && current_user_can('manage_options' ) ) :
 					
 					add_action( 'admin_init', array( $this, 'options_init') );
-					add_action( 'load-settings_page_'.$this->_setting_page_slug, array( $this, 'plugin_admin_boostrap' ) );
+					add_action( 'load-'.$this->_post_type.'_page_'.$this->_setting_page_slug, array( $this, 'plugin_admin_boostrap' ) );
 					add_action( 'admin_menu', array( $this, 'add_plugin_menu' ) );
 				
 				endif;
