@@ -30,3 +30,5 @@ do_action('portfolio_archive_title'); ==> Pour afficher le titre
 do_action('portfolio_archive_description'); ==> Pour afficher la description
 
 do_action('portfolio_archive_thumbnail'); ==> Pour afficher l'illustration
+
+<a href="https://www.mbcreation.net">MB Création</a>
